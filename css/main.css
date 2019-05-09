@@ -50,7 +50,7 @@ button {
 	display: none;
 }
 .header #nav a {
-	font-family: Roboto;
+	font-family: Roboto, sans-serif;
 	color:  #9fa3a7;
 	font-size: 12px;
 	font-weight: 700;
@@ -86,11 +86,9 @@ button {
 /*-------------------
 	MAIN SLIDE PRODUCT
 -------------------*/
-
 .main {
 	margin-top: 167px;
 }
-
 .main .slider {
   position: relative;
   width: 100%;
@@ -134,7 +132,6 @@ button {
   line-height: 41px;
   width: 340px;
 }
-
 .main .slider .slider__slides .slider__slide .cart p {
   font-family: 'Open Sans', sans-serif;
   color:  #9e9e9e;
@@ -145,10 +142,9 @@ button {
   margin-top: 34px;
   margin-bottom: 40px;
 }
-
 .main .slider .slider__slides .slider__slide .cart .pay {
   background-color:  #ffc80a;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   color:  #292929;
   border: none;
   border-radius: 30px;
@@ -168,7 +164,7 @@ button {
   background-color: #fff;
   border: 2px solid #f6f6f6;
   border-radius: 30px;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   color:  #292929;
   font-size: 12px;
   font-weight: 700;
@@ -201,44 +197,37 @@ button {
 	-o-animation-delay: 2.7s;
 	animation-delay: 2.5s;
 }
-
 .main .mouse img {
 	width: 32px;
 }
-
 .main .mouse .fas {
 	font-size: 25px;
 	margin: auto;
 }
-
 .main .mouse .fas:last-child {
 	font-size: 36px;
 	margin: auto;
 	margin-top: -18px;
 }
-
 .main .description {
 	display: flex;
 	justify-content: center;
 	padding-top: 174px;
 }
-
 .main .description .block1 {
 	display: flex;
 	flex-direction: column;
 	margin-right: 67px;
 	animation-delay: 0.5s;
 }
-
 .main .description .block1 h2 {
 	width: 336px;
-	font-family: 'Arvo';
+	font-family: 'Arvo', sans-serif;
 	color:  #212121;
 	font-size: 36px;
 	font-weight: 400;
 	line-height: 46px;
 }
-
 .main .description .block1 p {
 	width: 391px;
 	font-family: 'Open Sans', sans-serif;
@@ -248,7 +237,6 @@ button {
 	line-height: 26px;
 	margin-top: 24px;
 }
-
 .main .description .block1 p > span {
 	font-family: 'Open Sans', sans-serif;
 	color:  #9e9e9e;
@@ -256,17 +244,14 @@ button {
 	font-weight: 400;
 	line-height: 22px;
 }
-
 .main .description .block2 {
 	display: flex;
 	flex-direction: column;
 	animation-delay: 0.25s;
 }
-
 .main .description .block2 .performance, .four_operating_modes {
 	display: flex;
 }
-
 .main .description .block2 .performance .elipse {
 	position: relative;
 	border-radius: 50%;
@@ -275,7 +260,6 @@ button {
 	height: 60px;
 	margin-right: 42px;
 }
-
 .main .description .block2 .four_operating_modes .elipse {
 	position: relative;
 	border-radius: 50%;
@@ -284,44 +268,38 @@ button {
 	height: 60px;
 	margin-right: 42px;
 }
-
 .main .description .block2 .performance .elipse img {
 	position: absolute;
 	left: 16px;
 	top: -5px;
 }
-
 .main .description .block2 .four_operating_modes .elipse p {
 	position: absolute;
 	bottom: -2px;
 	left: 21px;
-	font-family: Roboto;
+	font-family: Roboto, sans-serif;
 	color:  #616161;
 	font-size: 72px;
 	font-weight: 100;
 }
-
 .main .description .block2 .performance {
 	-webkit-animation-delay: 1.1s;
 	-o-animation-delay: 1.1s;
 	animation-delay: 1.1s;
 }
-
 .main .description .block2 .four_operating_modes {
 	-webkit-animation-delay: 1.6s;
 	-o-animation-delay: 1.6s;
 	animation-delay: 1.6s;
 }
-
 .main .description .block2 .performance .stopwatch h3 {
 	margin-top: 10px;
-	font-family: 'Arvo';
+	font-family: 'Arvo', sans-serif;
 	color:  #353535;
 	font-size: 22px;
 	font-weight: 400;
 	line-height: 27px;
 }
-
 .main .description .block2 .performance .stopwatch p {
 	margin-top: 17px;
 	margin-bottom: 38px;
@@ -332,7 +310,6 @@ button {
 	font-weight: 400;
 	line-height: 26px;
 }
-
 .main .description .block2 .horizont {
 	margin-left: 24px;
 	margin-bottom: 44px;
@@ -340,16 +317,14 @@ button {
 	width: 319px;
 	height: 1px;
 }
-
 .main .description .block2 .four_operating_modes .four h3 {
 	margin-top: 20px;
-	font-family: 'Arvo';
+	font-family: 'Arvo', sans-serif;
 	color:  #353535;
 	font-size: 22px;
 	font-weight: 400;
 	line-height: 27px;
 }
-
 .main .description .block2 .four_operating_modes .four p {
 	width: 226px;
 	margin-top: 17px;
@@ -360,33 +335,28 @@ button {
 	font-weight: 400;
 	line-height: 26px;
 }
-
 /*---------------------
 	MAIN CHARACTERISTICS
 ---------------------*/
-
 .main .characteristics {
 	display: flex;
 	justify-content: space-between;
 	padding-top: 126px;
 	padding-left: 242px;
 }
-
 .main .characteristics .cont {
 	animation-delay: 0.25s;
 }
-
 .main .characteristics .cont h2 {
 	width: 340px;
 	margin-top: 77px;
 	margin-bottom: 34px;
-	font-family: 'Arvo';
+	font-family: 'Arvo', sans-serif;
 	color:  #212121;
 	font-size: 36px;
 	font-weight: 400;
 	line-height: 46px;
 }
-
 .main .characteristics .cont p {
 	font-family: 'Open Sans', sans-serif;
 	color:  #757575;
@@ -394,19 +364,15 @@ button {
 	font-weight: 400;
 	line-height: 28px;
 }
-
 .main .characteristics .cont-img {
 	animation-delay: 0.75s;
 }
-
 .main .characteristics .cont-img img {
 	width: 100%;
 }
-
 /*---------------------
 	MAIN REVIEWS
 ---------------------*/
-
 .main	.reviews {
 	display: flex;
 	flex-direction: column;
@@ -414,7 +380,6 @@ button {
 	padding-top: 80px;
 	padding-bottom: 50px;
 }
-
 .main	.reviews .review {
 	display: flex;
 	flex-direction: column;
@@ -423,35 +388,29 @@ button {
 	-o-animation-delay: 0.25s;
 	animation-delay: 0.25s;
 }
-
 .main	.reviews .review img {
 	margin-bottom: 50px;
 }
-
 .main	.reviews .review p {
 	width: 785px;
-	font-family: 'Arvo';
+	font-family: 'Arvo', sans-serif;
 	color:  #2c2c2c;
 	font-size: 36px;
 	font-weight: 400;
 	line-height: 46px;
 	letter-spacing: 1px;
 }
-
 .main	.reviews .review p:last-child {
 	margin-bottom: 84px;
 }
-
 .main	.reviews .reviews-slider {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
 }
-
 .main	.reviews .reviews-slider .slider_photo {
 	display: flex;
 	justify-content: space-around;
-	-ms-align-items: flex-end;
 	align-items: center;
 }
 .main	.reviews .reviews-slider .slider_photo #photo {
@@ -499,12 +458,10 @@ button {
 	background-color:  #e8e9ed;
 	height: 3px;
 }
-
 .main	.reviews .reviews-slider .slider_name {
 	display: flex;
 	justify-content: space-around;
 }
-
 .main	.reviews .reviews-slider .slider_name .name {
 	display: flex;
 	flex-direction: column;
@@ -513,16 +470,14 @@ button {
 	-o-animation-delay: 2.1s;
 	animation-delay: 2.1s;
 }
-
 .main	.reviews .reviews-slider .slider_name .name h5 {
-	font-family: 'Arvo';
+	font-family: 'Arvo', sans-serif;
 	color:  #2c2c2c;
 	font-size: 22px;
 	font-weight: 400;
 }
-
 .main	.reviews .reviews-slider .slider_name .name h6 {
-	font-family: Roboto;
+	font-family: Roboto, sans-serif;
 	color:  #9fa3a7;
 	font-size: 12px;
 	font-weight: 700;
@@ -530,29 +485,25 @@ button {
 	letter-spacing: 3px;
 	text-transform: uppercase;
 }
-
 /*---------------------
 	MAIN ORDER
 ---------------------*/
-
 .order {
 	display: flex;
 	justify-content: center;
 	padding-top: 107px;
 	padding-bottom: 163px;
 }
-
 .order .order-title h3 {
 	width: 272px;
-	font-family: 'Arvo';
+	font-family: 'Arvo', sans-serif;
 	color:  #292929;
 	font-size: 32px;
 	font-weight: 400;
 	line-height: 41px;
 }
-
 .order .order-title p {
-	font-family: Roboto;
+	font-family: Roboto, sans-serif;
 	color:  #2c2c2c;
 	font-size: 79.99px;
 	font-weight: 900;
@@ -568,7 +519,7 @@ button {
 	margin-top: 50px;
 }
 .order .order-form #form p > label {
-	font-family: Roboto;
+	font-family: Roboto, sans-serif;
 	color:  #9fa3a7;
 	font-size: 12px;
 	font-weight: 700;
@@ -685,7 +636,7 @@ button {
 	background-color:  #ffc80a;
 	border: none;
 	border-radius: 30px;
-	font-family: Roboto;
+	font-family: Roboto, sans-serif;
 	color:  #ffffff;
 	font-size: 12px;
 	font-weight: 500;
@@ -718,7 +669,7 @@ button {
 	animation-delay: 0.25s;
 }
 .footer .footer-cont .nav-link a {
-	font-family: Roboto;
+	font-family: Roboto, sans-serif;
 	color:  #6c6c6c;
 	font-size: 12px;
 	font-weight: 900;
@@ -775,7 +726,7 @@ button {
 	margin-right: 0;
 }
 .footer .copy {
-	font-family: Roboto;
+	font-family: Roboto, sans-serif;
 	color:  #9e9e9e;
 	font-size: 11.55px;
 	font-weight: 900;
@@ -814,7 +765,6 @@ button {
 		width: 490px;
 	}
 }
-
 @media screen and (max-width: 768px) {
 	/* HAMBURGER */
 	.header #nav-hamburger {
@@ -848,7 +798,7 @@ button {
 	  transition: .25s ease-in-out;
 	}
 	.header #nav-hamburger span:nth-child(1) {
-	  top: 0px;
+	  top: 0;
 	}
 	.header #nav-hamburger span:nth-child(2),#nav-icon3 span:nth-child(3) {
 	  top: 12px;
@@ -858,7 +808,7 @@ button {
 	}
 	.header #nav-hamburger.open span:nth-child(1) {
 	  top: 12px;
-	  width: 0%;
+	  width: 0;
 	  left: 50%;
 	}
 	.header #nav-hamburger.open span:nth-child(2) {
@@ -875,7 +825,7 @@ button {
 	}
 	#nav-hamburger.open span:nth-child(4) {
 	  top: 18px;
-	  width: 0%;
+	  width: 0;
 	  left: 50%;
 	}
 	.header #nav {
@@ -884,7 +834,7 @@ button {
 		border: 2px solid #9fa3a7;
 		position: absolute;
 		right: 186px;
-    top: 15px;
+    	top: 15px;
 		padding-top: 10px;
 		padding-right: 10px;
 		padding-left: 10px;
@@ -904,9 +854,6 @@ button {
 	/* END HAMBURGER */
 	.main {
 		margin-top: 50px;
-	}
-	.main .slider .owl-dots {
-
 	}
 	.main .slider__slide {
 		flex-direction: column;
@@ -971,7 +918,7 @@ button {
   	top: 3px;
   }
   .footer {
-  	padding-bottom: 0px;
+  	padding-bottom: 0;
   }
   .footer .footer-cont {
   	flex-direction: column;
@@ -982,7 +929,6 @@ button {
 		margin-bottom: 20px;
   }
 }
-
 @media screen and (max-width: 425px) {
 	.header #nav {
 		right: 100px;
@@ -1067,7 +1013,6 @@ button {
 		margin-right: 0;
 	}
 }
-
 @media screen and (max-width: 375px) {
 	.header #nav {
 		top: 59px;
